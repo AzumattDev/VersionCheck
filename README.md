@@ -1,3 +1,5 @@
+
+
 Purpose
 
 A dedicated ward mod aimed at improving the way wards work in Valheim.
@@ -33,9 +35,11 @@ Features
 * Configurable interaction in warded area
 * No Weather Damage
 * Visual Bubble
-* Offline Raid protection (BETA Phase!)
+* Offline Raid protection
 * Configurable ward recipe for Better Wards
 * Auto repair structures inside ward
+* No food drain inside ward
+* Call to Arms PvP (BETA Phase!)
 
 Client Custom Config Options
 
@@ -49,7 +53,13 @@ Admin Only
 
 * Hotkeys are UpArrow for enabling a ward, DownArrow for disabling a ward (must be looking at it)
 * Auto permit on enabled wards nearby (client configurable)
-* Admin only chat/console(F5) commands (/permit, /unpermit, /enable, /flash, /disable, /destroy)
+* Admin only chat/console(F5) commands (/permit, /unpermit, /enable, /flash, /disable)
+
+
+DEMONSTRATION/EXPLANATION VIDEO
+
+
+
 
 
 Installation Instructions
@@ -89,20 +99,23 @@ The Config file's name is "azumatt.BetterWards.cfg" it needs to be placed in "Be
 TO-DOs
 
 - [X]  Disable interaction of items that aren't doors and chests inside the ward from unpermitted users.
-- [X] Auto repair for items inside ward (requested feature)
+- [X]  Auto repair for items inside ward (requested feature)
 - [X]  Version enforcement. Disconnect from server if version is different.
 - [X]  Admins bypass indestructible items
-- [X]  Passivedamage in warded area (Better Wards Only)
+- [X]  Passive damage in warded area (Better Wards Only)
 - [X]  Visual Bubble
 - [X]  Check if more than {x} people permitted/owner on ward are online, if not, everything inside that ward is indestructible for the grief fight
-- [X] Configurable ward recipe
-- [X] Prevent ship interaction (non-permitted)
-- [X] MCE dependency drop in v1.5.0
+- [X]  Configurable ward recipe
+- [X]  Prevent ship interaction (non-permitted)
+- [X]  MCE dependency drop in v1.5.0
+- [X]  No food loss inside ward (requested feature)
+- [X]  Configurable ward entry/exit message
 - [ ]  Tribe/Clan system using wards
 - [ ]  Ward creation limit (no guarantees on this one...)
-- [ ]  No food loss inside ward (requested feature)
+- [ ]  Attempt different ward ranges
+- [ ]  Make custom bubbles for each ward
 
-Open to suggestions!
+Open to suggestions (drop them in the suggestion box)!
 
 
 
